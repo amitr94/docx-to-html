@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOCX to HTML Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>DOCX to HTML Converter</h1>
+
+  <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="docxFile" accept=".docx" required>
+    <button type="submit">Convert</button>
+  </form>
+
+  <h2>Preview</h2>
+  <div id="preview" class="output"></div>
+
+  <h2>Copy HTML Output</h2>
+  <textarea id="htmlOutput" class="output" readonly></textarea>
+
+  <script src="script.js"></script>
+</body>
+</html>
