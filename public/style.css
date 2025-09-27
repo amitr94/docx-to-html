@@ -1,10 +1,16 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  line-height: 1.6;
   background: #f9f9f9;
 }
 
-h1, h2, h3 {
+  h3 {
   margin-top: 20px;
   color: #2c3e50;
 }
