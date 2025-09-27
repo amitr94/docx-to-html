@@ -12,10 +12,14 @@
     "mammoth": "1.6.0",
     "juice": "^9.1.0"
   },
-  "engines": {
-    "node": "20.x"
-  }
+   "engines": {
+    "node": "20.11.1",
+    "npm": "10.2.4"
 }
+   "scripts": {
+    "build": "your-build-command",
+    "start": "your-start-command"
+  }
 {
   "scripts": {
     "start": "node index.js"
