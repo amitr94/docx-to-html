@@ -1,22 +1,28 @@
- {
+/* ========= Reset ========= */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
   line-height: 1.6;
   background: #f9f9f9;
+  color: #2c3e50;
 }
 
-  h3 {
-  font-size: 1.25rem;
+/* ========= Headings ========= */
+/* Make all headings (h1–h6) look like h3 */
+  h3,h4 {
+  font-size: 1.25rem;  /* same as h3 */
   font-weight: 600;
   margin: 20px 0;
   color: #2c3e50;
 }
 
+/* ========= Output Box ========= */
 .output {
   background: #fff;
   padding: 20px;
@@ -26,6 +32,7 @@ body {
   overflow-x: auto;
 }
 
+/* ========= Tables ========= */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -38,20 +45,24 @@ th, td {
   text-align: left;
 }
 
+/* ========= Paragraphs ========= */
 p {
   margin: 10px 0;
 }
 
+/* ========= Line Break ========= */
 br {
   content: "";
   display: block;
   margin: 5px 0;
 }
 
+/* ========= Textarea ========= */
 textarea {
   width: 100%;
   min-height: 200px;
 }
+
 /* ========= Read More / Read Less (Pure CSS) ========= */
 .read-more-toggle {
   display: none;  /* hide checkbox */
