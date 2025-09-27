@@ -10,8 +10,10 @@ body {
   background: #f9f9f9;
 }
 
-  h3 {
-  margin-top: 20px;
+  h2, h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 20px 0;
   color: #2c3e50;
 }
 
