@@ -50,3 +50,39 @@ textarea {
   width: 100%;
   min-height: 200px;
 }
+/* ========= Read More / Read Less (Pure CSS) ========= */
+.read-more-toggle {
+  display: none;  /* hide checkbox */
+}
+
+.more-text {
+  display: none;  /* hidden by default */
+}
+
+.read_more_text {
+  color: #007bff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.read_more_text:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* When checkbox is checked → show text */
+.read-more-toggle:checked ~ .more-text {
+  display: inline;
+}
+
+/* Change label text dynamically */
+.read_more_text::after {
+  content: "Read More";
+}
+
+.read-more-toggle:checked ~ .read_more_text::after {
+  content: "Read Less";
+}
