@@ -16,10 +16,7 @@
     "node": "20.11.1",
     "npm": "10.2.4"
 }
-   "scripts": {
-    "build": "your-build-command",
-    "start": "your-start-command"
-  }
+  
 {
   "scripts": {
     "start": "node index.js"
